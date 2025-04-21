@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Technology 03</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ffe6f0, #ffe0ec);
+      margin: 0;
+      padding: 0;
+      color: #333;
+      display: flex;
+    }
+
+    nav {
+      background-color: #ff66b2;
+      width: 250px;
+      padding: 20px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      overflow-y: auto;
+    }
+
+    nav a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 600;
+      padding: 10px;
+      margin: 10px 0;
+    }
+
+    nav a:hover {
+      background-color: #ff3399;
+      text-decoration: underline;
+    }
+
+    .content {
+      margin-left: 270px;
+      padding: 40px 60px;
+      width: 100%;
+    }
+
+    header {
+      background-color: #ff3399;
+      color: white;
+      padding: 25px;
+      text-align: center;
+      font-size: 36px;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .highlight {
+      font-size: 22px;
+      color: #cc0066;
+      margin-top: 20px;
+    }
+
+    h2 {
+      color: #ff3399;
+      font-size: 28px;
+      font-weight: bold;
+      margin-top: 40px;
+    }
+
+    .footer {
+      background-color: #ff3399;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-weight: bold;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    section {
+      scroll-margin-top: 100px;
+    }
+    .nav {
+            background-color: #ff79b0; /* Lighter pink */
+            text-align: center;
+            padding: 15px;
+        }
+        .nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    
+  </style>
+</head>
+<body>
+  <!-- Left Navigation Bar -->
+   <!-- Horizontal Navigation Bar -->
+
+
+  <nav>
+    <a href="#intro">Introduction to Web Technology</a>
+    <a href="#core">Core Components</a>
+    <a href="#types">Types of Web Technologies</a>
+    <a href="#work">How Web Technologies Work Together</a>
+    <a href="#browsers">How Web Browsers Work</a>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="content">
+    <header>Web Technology 03</header>
+    
+    <div class="nav">
+      <a href="#">Home</a>
+      <a href="Syllabus.html">Syllabus</a>
+      <a href="theorynotes.html">Theory Notes</a>
+      <a href="lab Manul.html">Lab Manual</a>
+      <a href="References.html">References</a>
+
+
+  </div>
+
+    
+
+    <section id="intro">
+      <h2 class="highlight">Introduction to Web Technology</h2>
+      <p>Web technology refers to the various tools, languages, protocols, and systems used to communicate over the World Wide Web. It allows the creation and hosting of websites and web-based applications accessible through browsers.</p>
+      <p>In today’s digital world, web technology enables us to share information, conduct business, collaborate, and interact globally. It is the backbone of the internet and powers nearly every online service and platform.</p>
+      <p>Web technologies can be broadly divided into two categories: frontend (client-side) and backend (server-side). Frontend deals with what users see, while backend handles server-side logic, database operations, and more.</p>
+      <p>HTML, CSS, and JavaScript form the foundation of web content. With the rise of frameworks and libraries like React, Angular, and Vue.js, developers can now build dynamic, interactive, and responsive web interfaces more easily.</p>
+      <p>Backend technologies like Node.js, Python, PHP, and databases help manage the business logic, data storage, and communication between the frontend and the server.</p>
+      <p>Web servers (like Apache and Nginx) and protocols (like HTTP/HTTPS) play a crucial role in delivering web content to users.</p>
+      <p>In addition to websites, web technology now powers web apps, cloud-based software, mobile apps using web views, and even IoT interfaces.</p>
+      <p>Advancements like Progressive Web Apps (PWAs), single-page applications (SPAs), and responsive design have made web applications faster, more interactive, and accessible on all devices.</p>
+      <p>Security technologies like SSL certificates, HTTPS, firewalls, and authentication methods are also essential to ensure safe user experiences.</p>
+      <p>Search engine optimization (SEO), accessibility, and user experience (UX) are now important considerations in web technology development.</p>
+    </section>
+
+    <section id="core">
+      <h2 class="highlight">Core Components Of Web Technology</h2>
+      <ul>
+        <li><strong>HTML:</strong> Provides the structure of web content.</li>
+        <li><strong>CSS:</strong> Styles the layout, colors, and fonts.</li>
+        <li><strong>JavaScript:</strong> Adds interactivity and dynamic behavior.</li>
+      </ul>
+    </section>
+
+    <section id="types">
+      <h2 class="highlight">Types Of Web Technologies</h2>
+      <p>Web technologies are broadly categorized based on their role in development: frontend, backend, full-stack, and APIs. Each category contributes to different parts of a website or web application.</p>
+
+      <h3>Frontend Technologies:</h3>
+      <ul>
+        <li><strong>HTML:</strong> Defines the structure and content of webpages.</li>
+        <li><strong>CSS:</strong> Handles styling and visual presentation.</li>
+        <li><strong>JavaScript:</strong> Enables dynamic content and user interaction.</li>
+        <li><strong>React:</strong> A library used for building component-based UIs.</li>
+        <li><strong>Vue.js:</strong> A framework for creating single-page apps efficiently.</li>
+      </ul>
+
+      <h3>Backend Technologies:</h3>
+      <ul>
+        <li><strong>Node.js:</strong> Executes JavaScript code on the server side.</li>
+        <li><strong>Python:</strong> Known for simplicity, used with Django and Flask.</li>
+        <li><strong>PHP:</strong> Powers content management systems like WordPress.</li>
+        <li><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB for storing data.</li>
+      </ul>
+
+      <h3>Full-Stack Technologies:</h3>
+      <ul>
+        <li><strong>MERN:</strong> MongoDB, Express.js, React, Node.js stack.</li>
+        <li><strong>MEAN:</strong> Uses Angular instead of React in MERN.</li>
+        <li><strong>Django:</strong> A full-stack Python-based framework.</li>
+        <li><strong>LAMP:</strong> Linux, Apache, MySQL, PHP stack.</li>
+      </ul>
+
+      <h3>APIs:</h3>
+      <ul>
+        <li><strong>REST:</strong> An architectural style for designing networked apps.</li>
+        <li><strong>GraphQL:</strong> A flexible alternative to REST for fetching data.</li>
+        <li><strong>JSON:</strong> A common data format used for API communication.</li>
+        <li><strong>WebSockets:</strong> For real-time data exchange like chats and games.</li>
+      </ul>
+    </section>
+
+    <section id="work">
+        <h2 class="highlight">How Web Technologies Work Together</h2>
+        <p>Web technologies work in harmony to deliver seamless digital experiences to users across devices and platforms.</p>
+        <p>When a user enters a URL, the browser communicates with a web server using protocols like HTTP or HTTPS.</p>
+        <p>The server locates the requested resource, typically an HTML page, and sends it back to the browser.</p>
+        <p>The browser reads the HTML to understand the structure and loads any associated CSS to apply styles.</p>
+        <p>JavaScript is then executed to enable dynamic behavior such as animations, form validation, and interactivity.</p>
+        <p>Frontend frameworks like React or Vue help build modular, responsive UIs with better performance.</p>
+        <p>At the same time, backend technologies handle logic, data fetching, user authentication, and content generation.</p>
+        <p>APIs serve as bridges between frontend and backend, passing data in formats like JSON.</p>
+        <p>Databases store content and are queried by backend code to retrieve or update records.</p>
+        <p>Web servers manage traffic and serve resources efficiently using load balancers and caching.</p>
+        <p>Modern tools like webpack or Vite bundle frontend code and optimize it for performance.</p>
+        <p>CDNs (Content Delivery Networks) are used to serve static assets like images, CSS, and JS faster.</p>
+        <p>Security layers like HTTPS and authentication tokens protect user data during transmission.</p>
+        <p>Responsive design ensures the same site works across desktops, tablets, and mobiles.</p>
+        <p>Progressive Web Apps (PWAs) enhance functionality like offline access and push notifications.</p>
+        <p>DevOps and CI/CD pipelines automate testing, building, and deploying of web applications.</p>
+        <p>Version control systems like Git help teams collaborate and maintain code history.</p>
+        <p>Browser developer tools allow developers to inspect elements, debug code, and monitor performance.</p>
+        <p>All these components must coordinate smoothly to provide fast, reliable, and interactive experiences.</p>
+        <p>This integration forms the modern web stack that supports billions of users daily.</p>
+      </section>
+  
+
+    <section id="browsers">
+      <h2 class="highlight">How do Web Browsers Work?</h2>
+      <ul>
+        <li><strong>DNS Lookup:</strong> Converts domain to IP address.</li>
+        <li><strong>HTTP Request:</strong> Sends request to the server.</li>
+        <li><strong>Rendering:</strong> Parses HTML/CSS/JS and displays content.</li>
+        <li><strong>User Interaction:</strong> Browser handles input and scripts.</li>
+      </ul>
+    </section>
+
+  </div>
+
+  <div class="footer">Abilash S - E22ASR003 | Web Technology 03</div>
+</body>
+</html>
